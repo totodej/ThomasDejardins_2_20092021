@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway/Raleway-VariableFont_wght.ttf") ;
+   }
+
+body {
+    font-family: "Raleway";
+}
+
+header, section, footer {
+    margin: 30px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 110px;
+}
+
+header li {
+    display:inline-block;
+    list-style-type: none;
+    padding: 0px 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: #0065FC;
+}
+
