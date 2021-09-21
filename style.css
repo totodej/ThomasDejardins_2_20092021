@@ -39,10 +39,6 @@ header a:hover {
 
 /* Section 1 */
 
-#searchSection p {
-    font-size: 14px;
-}
-
 form {
     display: flex;
 }
@@ -65,15 +61,12 @@ form button {
     color: white;
     background-color: #0065FC;
     border: 1px solid #0065FC;
+    font-size: 15px;
 }
 
 #filters {
     display: flex;
     margin-top: 20px;
-}
-
-#filters p {
-    padding: 4px 0px;
 }
 
 #filters ul li {
@@ -89,7 +82,6 @@ form button {
     padding: 10px 10px 10px 30px;
     border-radius: 0px 20px 20px 0px;
     position:relative;
-    font-size: 14px;
 }
 
 #filters ul li i {
@@ -116,8 +108,108 @@ form button {
     display: inline-block;
     margin-left: 5px;
     vertical-align: middle;
-    font-size: 14px;
 }
+
+/* Section 2 */
+
+#accomodationSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#accomodationSection h1 {
+    margin: 28px 0px 0px 28px;
+}
+
+#accomodationSection article {
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    width: 65%;
+    background-color:#F2F2F2;
+}
+
+#roomsArticle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#roomsArticle a {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px grey;
+    margin: 20px 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#roomsArticle img {
+    width: 240px;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#roomsArticle h2, #roomsAside h2 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+#roomsArticle p {
+    margin: 5px 0px;
+}
+
+article p {
+    margin: 0px 28px 18px;
+}
+
+
+
+#accomodationSection aside {
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    background-color:#F2F2F2;
+    margin-right: 20px;
+    width: 30%;
+}
+
+#accomodationSection aside h1 {
+    display: inline-block;
+    margin-right: 172px;
+}
+
+#roomsAside a {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px grey;
+    padding: 5px;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#roomsAside img {
+    width: 120px;
+    height: 127px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.descriptionAside {
+    margin: 0px 15px;
+}
+
+.fa-star {
+    color: #F2F2F2;
+}
+
+.blue {
+    color: #0065FC
+}
+
+
+
 
 
 
