@@ -95,6 +95,11 @@ form button {
     width: 16px;
 }
 
+#filters ul li a:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+
 #avalaible i {
     display: inline-block;
     font-size: 13px;
@@ -120,6 +125,16 @@ form button {
 #accomodationSection h1 {
     margin: 28px 0px 0px 28px;
 }
+
+.fa-star {
+    color: #F2F2F2;
+}
+
+.blue {
+    color: #0065FC
+}
+
+/* Article */
 
 #accomodationSection article {
     border: 1px solid #F2F2F2;
@@ -164,7 +179,7 @@ article p {
     margin: 0px 28px 18px;
 }
 
-
+/* Aside */
 
 #accomodationSection aside {
     border: 1px solid #F2F2F2;
@@ -200,13 +215,10 @@ article p {
     margin: 0px 15px;
 }
 
-.fa-star {
-    color: #F2F2F2;
-}
+/* Section 3 */
 
-.blue {
-    color: #0065FC
-}
+
+
 
 
 
