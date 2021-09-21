@@ -28,6 +28,11 @@ header li {
     padding: 0px 30px;
 }
 
+header li:last-child {
+    font-weight: bold;
+    color: #0065FC;
+}
+
 header a {
     text-decoration: none;
     color: black;
@@ -62,11 +67,16 @@ form button {
     background-color: #0065FC;
     border: 1px solid #0065FC;
     font-size: 15px;
+    font-weight: bold;
 }
 
 #filters {
     display: flex;
     margin-top: 20px;
+}
+
+#filters p {
+    font-weight: bold;
 }
 
 #filters ul li {
@@ -82,6 +92,7 @@ form button {
     padding: 10px 10px 10px 30px;
     border-radius: 0px 20px 20px 0px;
     position:relative;
+    font-weight: bold;
 }
 
 #filters ul li i {
@@ -167,7 +178,7 @@ form button {
 }
 
 #roomsArticle h2, #roomsAside h2 {
-    font-size: 20px;
+    font-size: 16px;
     margin: 0px;
 }
 
