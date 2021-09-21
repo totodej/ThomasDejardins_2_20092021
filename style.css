@@ -50,7 +50,7 @@ form {
 
 form i {
     border: 1px solid #F2F2F2; 
-    padding: 10px;
+    padding: 11px;
     border-radius: 10px 0px 0px 10px;
     background-color: #F2F2F2;
 }
@@ -68,24 +68,25 @@ form button {
     border: 1px solid #0065FC;
     font-size: 15px;
     font-weight: bold;
+    width: 110px;
 }
 
-#filters {
+.filters {
     display: flex;
     margin-top: 20px;
 }
 
-#filters p {
+.filters p {
     font-weight: bold;
 }
 
-#filters ul li {
+.filters ul li {
     display: inline-block;
     list-style-type: none;
     margin: 0px 30px;
 }
 
-#filters ul li a {
+.filters ul li a {
     color: black;
     text-decoration: none;
     border: 1px solid #F2F2F2;
@@ -95,7 +96,7 @@ form button {
     font-weight: bold;
 }
 
-#filters ul li i {
+.filters ul li i {
     background-color: #DEEBFF;
     color: #0065FC;
     padding: 12px;
@@ -106,12 +107,12 @@ form button {
     width: 16px;
 }
 
-#filters ul li a:hover {
+.filters ul li a:hover {
     background-color: #DEEBFF;
     color: #0065FC;
 }
 
-#avalaible i {
+.avalaible i {
     display: inline-block;
     font-size: 13px;
     border: 1px solid #F2F2F2;
@@ -120,7 +121,7 @@ form button {
     color:#0065FC 
 }
 
-#avalaible p {
+.avalaible p {
     display: inline-block;
     margin-left: 5px;
     vertical-align: middle;
@@ -154,13 +155,13 @@ form button {
     background-color:#F2F2F2;
 }
 
-#roomsArticle {
+.roomsArticle {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-#roomsArticle a {
+.roomsArticle a {
     background-color: white;
     padding: 5px;
     border-radius: 20px;
@@ -171,18 +172,19 @@ form button {
     color: black;
 }
 
-#roomsArticle img {
+.roomsArticle img {
     width: 240px;
     height: 120px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
-#roomsArticle h2, #roomsAside h2 {
+.roomsArticle h2, .roomsAside h2 {
     font-size: 16px;
     margin: 0px;
 }
 
-#roomsArticle p {
+.roomsArticle p {
     margin: 5px 0px;
 }
 
@@ -205,7 +207,7 @@ article p {
     margin-right: 172px;
 }
 
-#roomsAside a {
+.roomsAside a {
     display: flex;
     background-color: white;
     border-radius: 20px;
@@ -216,10 +218,11 @@ article p {
     color: black;
 }
 
-#roomsAside img {
+.roomsAside img {
     width: 120px;
     height: 127px;
     border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
 }
 
 .descriptionAside {
@@ -228,9 +231,75 @@ article p {
 
 /* Section 3 */
 
+.activities {
+    display: flex;
+    justify-content: space-between;
+}
 
+.activities img {
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    width: 290px;
+}
 
+.col_1 a, .col_2 a, .col_3 a, .col_4 a {
+    text-decoration: none;
+    color: black;
+}
 
+.activities h2 {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.vieux_port, .pomegues, .frioul, .calanques, .dame_garde, .longchamp {
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px grey;
+    margin: 20px 20px;
+}
+
+.vieux_port, .calanques {
+    height: 487px;
+}
+
+.vieux_port img, .calanques img {
+    height: 436px;
+}
+
+.pomegues {
+    height: 231px;
+}
+
+.pomegues img {
+    height: 180px;
+}
+
+.frioul {
+    height: 205px;
+    margin-top: 51px;
+}
+
+.frioul img {
+    height: 154px;
+}
+
+.dame_garde {
+    height: 181px;
+}
+
+.dame_garde img {
+    height: 130px;
+    object-fit: revert;
+}
+
+.longchamp {
+    margin-top: 51px;
+    height: 255px;
+}
+
+.longchamp img {
+    height: 204px;
+}
 
 
 
