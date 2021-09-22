@@ -273,6 +273,7 @@ form button {
 .activities {
     display: flex;
     justify-content: space-between;
+    margin-left: -16px;
 }
 
 .activities img {
