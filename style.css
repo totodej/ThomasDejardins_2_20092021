@@ -329,7 +329,8 @@ form button {
 
 .dame_garde img {
     height: 130px;
-    object-fit: revert;
+    object-fit: cover;
+    object-position: top;
 }
 
 .longchamp {
