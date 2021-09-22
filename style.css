@@ -5,9 +5,11 @@
 
 body {
     font-family: "Raleway";
+    margin: 0 auto;
+    width: 100%;
 }
 
-header, section, footer {
+header, section {
     margin: 30px;
 }
 
@@ -179,17 +181,31 @@ form button {
     object-fit: cover;
 }
 
-.roomsArticle h2, .roomsAside h2 {
+.descriptionArticle h2, .descriptionAside h2 {
     font-size: 16px;
     margin: 0px;
 }
 
-.roomsArticle p {
+.descriptionArticle {
+    padding: 0px 8px;
+}
+
+.descriptionArticle p {
     margin: 5px 0px;
 }
 
-article p {
-    margin: 0px 28px 18px;
+.displayMore {
+    padding: 20px 0px 20px 35px;
+}
+
+.displayMore a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* Aside */
@@ -218,6 +234,11 @@ article p {
     color: black;
 }
 
+.roomsAside {
+    display: flex;
+    flex-direction: column;
+}
+
 .roomsAside img {
     width: 120px;
     height: 127px;
@@ -227,6 +248,20 @@ article p {
 
 .descriptionAside {
     margin: 0px 15px;
+    padding: 5px;
+}
+
+.descriptionAside p {
+    margin: 5px 0px;
+}
+
+.descriptionAside {
+    position: relative;
+}
+
+.starsAside {
+    position: absolute;
+    bottom: 5px;
 }
 
 /* Section 3 */
@@ -300,6 +335,30 @@ article p {
 .longchamp img {
     height: 204px;
 }
+
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+}
+
+.a_propos {
+    padding: 30px;
+    margin-left: 20px;;
+}
+
+.accommodation, .assistance {
+    padding: 30px;
+    margin-left: 200px;
+}
+
+footer h2 {
+    font-size: 17px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
 
 
 
