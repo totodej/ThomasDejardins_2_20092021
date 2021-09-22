@@ -329,7 +329,6 @@ form button {
 
 .dame_garde img {
     height: 130px;
-    object-fit: cover;
     object-position: top;
 }
 
