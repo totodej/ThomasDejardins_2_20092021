@@ -13,6 +13,10 @@ header, section {
     margin: 30px;
 }
 
+h1 {
+    font-size: 19px;
+}
+
 /* Header */
 
 header {
