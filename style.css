@@ -360,9 +360,21 @@ footer h2 {
     font-size: 17px;
 }
 
-footer p {
-    font-size: 15px;
+footer ul {
+    padding-inline-start: 0px;
 }
+
+footer ul li {
+    font-size: 15px;
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
 
 
 
