@@ -1,0 +1,133 @@
+
+#accomodationSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#accomodationSection h1 {
+    margin: 28px 0px 0px 28px;
+}
+
+.fa-star {
+    color: #F2F2F2;
+}
+
+.blue {
+    color: #0065FC
+}
+
+/* Article */
+
+#accomodationSection article {
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    width: 65%;
+    background-color:#F2F2F2;
+}
+
+.roomsArticle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.roomsArticle a {
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px grey;
+    margin: 20px 20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.roomsArticle img {
+    width: 240px;
+    height: 120px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.descriptionArticle h2, .descriptionAside h2 {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.descriptionArticle {
+    padding: 0px 8px;
+}
+
+.descriptionArticle p {
+    margin: 5px 0px;
+}
+
+.displayMore {
+    padding: 20px 0px 20px 35px;
+}
+
+.displayMore a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Aside */
+
+#accomodationSection aside {
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+    background-color:#F2F2F2;
+    margin-right: 20px;
+    width: 30%;
+}
+
+#accomodationSection aside h1 {
+    display: inline-block;
+    margin-right: 172px;
+}
+
+.roomsAside a {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px grey;
+    padding: 5px;
+    margin: 20px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.roomsAside {
+    display: flex;
+    flex-direction: column;
+}
+
+.roomsAside img {
+    width: 120px;
+    height: 127px;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+}
+
+.descriptionAside {
+    margin: 0px 15px;
+    padding: 5px;
+}
+
+.descriptionAside p {
+    margin: 5px 0px;
+}
+
+.descriptionAside {
+    position: relative;
+}
+
+.starsAside {
+    position: absolute;
+    bottom: 5px;
+}

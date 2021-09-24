@@ -1,0 +1,71 @@
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -16px;
+}
+
+.activities img {
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    width: 290px;
+}
+
+.col_1 a, .col_2 a, .col_3 a, .col_4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.activities h2 {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.vieux_port, .pomegues, .frioul, .calanques, .dame_garde, .longchamp {
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 1px grey;
+    margin: 20px 20px;
+}
+
+.vieux_port, .calanques {
+    height: 487px;
+}
+
+.vieux_port img, .calanques img {
+    height: 436px;
+}
+
+.pomegues {
+    height: 231px;
+}
+
+.pomegues img {
+    height: 180px;
+}
+
+.frioul {
+    height: 205px;
+    margin-top: 51px;
+}
+
+.frioul img {
+    height: 154px;
+}
+
+.dame_garde {
+    height: 181px;
+}
+
+.dame_garde img {
+    height: 130px;
+    object-position: top;
+}
+
+.longchamp {
+    margin-top: 51px;
+    height: 255px;
+}
+
+.longchamp img {
+    height: 204px;
+}
