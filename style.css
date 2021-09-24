@@ -6,7 +6,7 @@ body {
     width: 100%;
 }
 
-header, section {
+section {
     margin: 30px;
 }
 
@@ -19,30 +19,31 @@ h1 {
 header {
     display: flex;
     justify-content: space-between;
+    margin: 0px 30px;
 }
 
 header img {
     width: 110px;
+    height: 51px;
+    margin-top: 30px
 }
 
-header li {
-    display:inline-block;
-    list-style-type: none;
-    padding: 0px 30px;
+header a {
+    display: inline-block;
+    padding: 50px 20px;
+    text-decoration: none;
+    color: black; 
+    margin: 0px 10px 0px 10px;
 }
 
-header li:last-child {
+header a:last-child {
     font-weight: bold;
     color: #0065FC;
 }
 
-header a {
-    text-decoration: none;
-    color: black;
-}
-
 header a:hover {
     color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 /* Section 1 */
