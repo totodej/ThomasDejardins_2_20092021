@@ -1,3 +1,6 @@
+#activitiesSection {
+    margin-bottom: 50px;
+}
 
 .activities {
     display: flex;
@@ -8,7 +11,7 @@
 .activities img {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
-    width: 290px;
+    width: 301px;
 }
 
 .col_1 a, .col_2 a, .col_3 a, .col_4 a {
@@ -28,15 +31,15 @@
 }
 
 .vieux_port, .calanques {
-    height: 487px;
+    height: 439px;
 }
 
 .vieux_port img, .calanques img {
-    height: 436px;
+    height: 384px;
 }
 
 .pomegues {
-    height: 231px;
+    height: 236px;
 }
 
 .pomegues img {
@@ -44,28 +47,28 @@
 }
 
 .frioul {
-    height: 205px;
-    margin-top: 51px;
+    height: 163px;
+    margin-top: 40px;
 }
 
 .frioul img {
-    height: 154px;
+    height: 108px;
 }
 
 .dame_garde {
-    height: 181px;
+    height: 195px;
 }
 
 .dame_garde img {
-    height: 130px;
+    height: 139px;
     object-position: top;
 }
 
 .longchamp {
-    margin-top: 51px;
-    height: 255px;
+    margin-top: 40px;
+    height: 204px;
 }
 
 .longchamp img {
-    height: 204px;
+    height: 149px;
 }
