@@ -1,10 +1,7 @@
-@font-face {
-    font-family: "Raleway";
-    src: url("Raleway/Raleway-VariableFont_wght.ttf");
-   }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    font-family: "Raleway";
+    font-family: "Raleway", Arial, Verdana, sans-serif;
     margin: 0 auto;
     width: 100%;
 }
