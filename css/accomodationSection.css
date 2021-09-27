@@ -138,3 +138,18 @@
     position: absolute;
     bottom: 5px;
 }
+
+@media screen and (max-width: 1400px) {
+
+    #accomodationSection {
+        justify-content: space-around;
+    }
+
+    #accomodationSection article {
+        width: 690px; 
+    }
+
+    #accomodationSection aside {
+        height: fit-content;
+    }
+}
