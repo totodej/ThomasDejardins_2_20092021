@@ -32,3 +32,13 @@ footer a {
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 1200px){
+
+    footer {
+        justify-content: space-around;
+    }
+    .a_propos, .accommodation, .assistance {
+        margin-left: 0px;
+    }
+}
