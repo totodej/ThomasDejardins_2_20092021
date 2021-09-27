@@ -42,3 +42,11 @@ footer a {
         margin-left: 0px;
     }
 }
+
+@media screen and (max-width: 768px){
+
+    footer {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+}
