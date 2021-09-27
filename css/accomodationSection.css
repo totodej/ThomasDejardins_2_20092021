@@ -153,3 +153,39 @@
         height: fit-content;
     }
 }
+
+@media screen and (max-width: 1200px){
+    
+    #accomodationSection {
+        flex-direction: column-reverse;
+        margin: 0px;
+    }
+
+    #accomodationSection aside {
+        border-radius: 0px;
+        width: 100%;
+        position: relative;
+    }
+
+    .roomsAside {
+        align-items: center;
+    }
+
+    #accomodationSection aside h1 {
+        margin: 28px 0px 0px 34px;
+    }
+
+    .fa-chart-line {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+    }
+
+    #accomodationSection article {
+        width: 100%;
+        border-radius: 0px;
+        background-color: white;
+        border: none;
+    }
+
+}
