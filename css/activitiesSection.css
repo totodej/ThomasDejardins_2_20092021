@@ -72,3 +72,13 @@
 .longchamp img {
     height: 149px;
 }
+
+@media screen and (max-width: 1400px) { 
+    
+    .activities {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 75%;
+        margin: 0 auto;
+    }
+}
