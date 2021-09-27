@@ -82,3 +82,21 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width: 992px) { 
+
+    .vieux_port, .pomegues, .frioul, .calanques, .dame_garde, .longchamp {
+        width: 342px;
+        height: 189px;
+    }
+
+    .vieux_port img, .pomegues img, .frioul img, .calanques img, .dame_garde img, .longchamp img {
+        width: 342px;
+        height: 133px;
+    }
+
+    .vieux_port img {
+        object-position: top;
+    }
+    
+}
