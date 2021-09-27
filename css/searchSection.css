@@ -40,12 +40,15 @@ form button {
 
 .filters ul {
     padding-inline-start: 33px;
+    display: flex;
+    margin-block-start: 0px;
+    flex-wrap: wrap;
 }
 
 .filters ul li {
-    display: inline-block;
+    display: flex;
     list-style-type: none;
-    margin: 0px 18px;
+    margin: 0px 18px 20px;
 }
 
 .filters ul li a {
@@ -75,7 +78,7 @@ form button {
 }
 
 .avalaible {
-    margin: 22px 0px;
+    margin: 2px 0px 22px;
 }
 
 .avalaible i {
