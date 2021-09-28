@@ -30,3 +30,28 @@ header a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
+
+@media screen and (max-width: 768px){
+
+    header nav {
+        flex-wrap: wrap-reverse;
+        flex-direction:row-reverse;
+    }
+
+    header nav a:nth-of-type(2) {
+        order: -1;
+    }
+
+    header a:hover {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+    }
+
+    header a:last-child:hover {
+        color: #0065FC;
+        border-top: 2px solid #0065FC;
+        border-bottom: none;
+    }
+
+}
