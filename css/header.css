@@ -26,7 +26,7 @@ header a:last-child {
     color: #0065FC;
 }
 
-header a:hover {
+header a:active {
     color: #0065FC;
     border-top: 2px solid #0065FC;
 }
@@ -42,14 +42,12 @@ header a:hover {
         order: -1;
     }
 
-    header a:hover {
-        color: #0065FC;
+    header a:active {
         border-bottom: 2px solid #0065FC;
         border-top: none;
     }
 
-    header a:last-child:hover {
-        color: #0065FC;
+    header a:last-child:active {
         border-top: 2px solid #0065FC;
         border-bottom: none;
     }
