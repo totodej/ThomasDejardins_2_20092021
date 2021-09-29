@@ -50,3 +50,19 @@ footer a {
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 576px){
+
+    footer {
+        display: block;
+    }
+
+    .a_propos, .accommodation {
+        padding: 30px 30px 0px 30px;
+    }
+
+    .assistance {
+        padding: 30px 30px;
+    }
+}
+
