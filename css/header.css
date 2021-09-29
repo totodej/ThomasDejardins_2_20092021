@@ -53,3 +53,12 @@ header a:active {
     }
 
 }
+
+@media screen and (max-width: 576px){
+
+    .filters p {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+}
