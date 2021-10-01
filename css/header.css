@@ -1,13 +1,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0px 30px;
+    margin: 0px 50px;
 }
 
 header img {
     width: 110px;
     height: 51px;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
 header nav {
