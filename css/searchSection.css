@@ -18,7 +18,7 @@ form input {
     padding: 17px;
     border: 1px solid #F2F2F2;
     font-weight: bold;
-    width: 223px;
+    width: 235px;
     font-size: 16px;
 }
 
@@ -29,7 +29,7 @@ form button {
     border: 1px solid #0065FC;
     font-size: 15px;
     font-weight: bold;
-    width: 132px;
+    width: 134px;
 }
 
 .fa-search {
@@ -61,8 +61,8 @@ form button {
 .filters ul li a {
     color: black;
     text-decoration: none;
-    border: 1px solid #F2F2F2;
-    padding: 17px 20px 17px 50px;
+    border: 2px solid #F2F2F2;
+    padding: 13px 20px 13px 50px;
     border-radius: 0px 25px 25px 0px;
     position:relative;
     font-weight: bold;
@@ -71,11 +71,11 @@ form button {
 .filters ul li i {
     background-color: #DEEBFF;
     color: #0065FC;
-    padding: 18px;
+    padding: 16px;
     border-radius: 25px;
     position: absolute;
     left: -24px;
-    top: 0px;
+    top: -1px;
     width: 16px;
 }
 
