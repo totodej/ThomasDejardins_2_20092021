@@ -1,7 +1,10 @@
+.searchSection h1 {
+    margin-block-end: 16px;
+}
 
 form {
     display: flex;
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 .fa-map-marker-alt {
@@ -35,7 +38,7 @@ form button {
 
 .filters {
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .filters p {
@@ -82,7 +85,7 @@ form button {
 }
 
 .avalaible {
-    margin: 2px 0px 22px;
+    margin: 0px 0px 22px;
     display: flex;
 }
 
@@ -93,12 +96,12 @@ form button {
     padding: 3px 7px;
     color:#0065FC;
     height: 14px;
-    margin-top: 14px;
 }
 
 .avalaible p {
     margin-left: 5px;
     vertical-align: middle;
+    margin-block-start: 0px;
 }
 
 @media screen and (max-width: 576px){
