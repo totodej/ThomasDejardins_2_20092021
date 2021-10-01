@@ -18,7 +18,7 @@
 #accommodationSection article {
     border: 1px solid #F2F2F2;
     border-radius: 20px;
-    width: 879px;
+    width: 877px;
     background-color:#F2F2F2;
 }
 
@@ -84,8 +84,7 @@
     border: 1px solid #F2F2F2;
     border-radius: 20px;
     background-color:#F2F2F2;
-    margin-right: 20px;
-    width: 419px;
+    width: 418px;
 }
 
 #accommodationSection aside h1 {
@@ -169,6 +168,24 @@
 
     .roomsAside {
         align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px 50px;
+    }
+
+    .roomsAside a {
+        margin: 20px 5px 36px 5px;
+        flex-direction: column;
+        height: 235px;
+    }
+
+    .roomsAside img {
+        width: auto;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .starsAside {
+        top: 88px;
     }
 
     #accommodationSection aside h1 {
