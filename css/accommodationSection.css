@@ -38,7 +38,6 @@
     border-radius: 20px;
     box-shadow: 0px 0px 7px 1px grey;
     margin: 20px 20px;
-    display: block;
     text-decoration: none;
     color: black;
 }
@@ -92,6 +91,7 @@
     margin: 28px 121px 0px 34px;
 }
 
+
 .roomsAside {
     display: flex;
     flex-direction: column;
@@ -138,23 +138,12 @@
     bottom: 5px;
 }
 
-@media screen and (max-width: 1400px) {
-
-    #accommodationSection {
-        justify-content: space-around;
-    }
-
-    #accommodationSection article {
-        width: 690px; 
-    }
-
-    #accommodationSection aside {
-        height: fit-content;
-    }
-}
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1400px){
     
+    #accommodationSection article h1, #accommodationSection aside h1 {
+        margin: 28px 0px 0px 50px;
+    }
+
     #accommodationSection {
         flex-direction: column-reverse;
         margin: 0px;
@@ -167,9 +156,8 @@
     }
 
     .roomsAside {
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         margin: 0px 50px;
     }
 
@@ -177,6 +165,7 @@
         margin: 20px 5px 36px 5px;
         flex-direction: column;
         height: 235px;
+        width: auto;
     }
 
     .roomsAside img {
@@ -186,10 +175,6 @@
 
     .starsAside {
         top: 88px;
-    }
-
-    #accommodationSection aside h1 {
-        margin: 28px 0px 0px 34px;
     }
 
     .fa-chart-line {
@@ -203,17 +188,36 @@
         border-radius: 0px;
         background-color: white;
         border: none;
+        position: relative;
     }
 
-}
-
-@media screen and (max-width: 992px){
+    .roomsArticle {
+        display: grid;
+        margin: 0px 50px;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
     .roomsArticle a {
-        width: 342px;
+        width: auto;
+        margin: 20px 5px;
+        height: 235px;
     }
 
     .roomsArticle img {
-        width: 334px;
+        width: 97.5%;
+    }
+
+    .descriptionArticle {
+        position: relative;
+    }
+
+    .starsArticle {
+        position: absolute;
+        top: 85px;
+    }
+
+    .displayMore {
+        margin: 0px 15px;
     }
 }
+
