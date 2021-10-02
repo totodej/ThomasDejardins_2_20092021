@@ -1,62 +1,69 @@
-#activitiesSection {
-    margin-bottom: 50px;
-}
-
 .activities {
-    display: flex;
-    justify-content: space-between;
-    margin-left: -16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 195px 22px 22px 43px 164px;
+    column-gap: 44px;
+    margin: 10px 0px 60px 0px;
 }
 
-.activities img {
-    object-fit: cover;
-    border-radius: 20px 20px 0px 0px;
-    width: 301px;
+.vieux_port {
+    grid-row: 2/7;
+    grid-column: 1/2;
 }
 
-.col_1 a, .col_2 a, .col_3 a, .col_4 a {
+.pomegues {
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.calanques {
+    grid-row: 2/7;
+    grid-column: 3/4;
+}
+
+.dame_garde {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.frioul {
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+
+.longchamp {
+    grid-row: 5/7;
+    grid-column: 4/5;
+}
+
+.activities a {
+    border-radius: 20px;
     text-decoration: none;
-    color: black;
+    box-shadow: 0px 7px 20px 0px #0001;
 }
 
 .activities h2 {
     font-size: 14px;
     margin-left: 20px;
+    color : black;
 }
 
-.vieux_port, .pomegues, .frioul, .calanques, .dame_garde, .longchamp {
-    border-radius: 20px;
-    box-shadow: 0px 0px 7px 1px grey;
-    margin: 20px 20px;
-}
-
-.vieux_port, .calanques {
-    height: 439px;
+.activities img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .vieux_port img, .calanques img {
-    height: 384px;
-}
-
-.pomegues {
-    height: 236px;
+    height: 389px;
 }
 
 .pomegues img {
     height: 180px;
 }
 
-.frioul {
-    height: 163px;
-    margin-top: 40px;
-}
-
 .frioul img {
-    height: 108px;
-}
-
-.dame_garde {
-    height: 195px;
+    height: 107px;
 }
 
 .dame_garde img {
@@ -64,39 +71,7 @@
     object-position: top;
 }
 
-.longchamp {
-    margin-top: 40px;
-    height: 204px;
-}
-
 .longchamp img {
-    height: 149px;
+    height: 150px;
 }
 
-@media screen and (max-width: 1400px) { 
-    
-    .activities {
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 75%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 992px) { 
-
-    .vieux_port, .pomegues, .frioul, .calanques, .dame_garde, .longchamp {
-        width: 342px;
-        height: 189px;
-    }
-
-    .vieux_port img, .pomegues img, .frioul img, .calanques img, .dame_garde img, .longchamp img {
-        width: 342px;
-        height: 133px;
-    }
-
-    .vieux_port img {
-        object-position: top;
-    }
-    
-}
