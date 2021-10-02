@@ -149,10 +149,14 @@
         margin: 0px;
     }
 
-    #accommodationSection aside {
-        border-radius: 0px;
-        width: 100%;
+    #accommodationSection aside, #accommodationSection article {
+        width: 92.5%;
+        margin: auto;
         position: relative;
+    }
+
+    #accommodationSection aside {
+        margin-bottom: 20px;
     }
 
     .roomsAside {
@@ -183,13 +187,7 @@
         top: 30px;
     }
 
-    #accommodationSection article {
-        width: 100%;
-        border-radius: 0px;
-        background-color: white;
-        border: none;
-        position: relative;
-    }
+
 
     .roomsArticle {
         display: grid;
