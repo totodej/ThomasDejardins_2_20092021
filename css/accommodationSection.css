@@ -28,16 +28,18 @@
 
 .roomsArticle {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0px 30px;
 }
 
 .roomsArticle a {
     background-color: white;
     width: 245px;
+    height: 199px;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px #f2f2f2;
-    margin: 20px 20px;
+    box-shadow: 0px 7px 20px 0px #0001;
+    margin: 20px 0px;
     text-decoration: none;
     color: black;
 }
@@ -56,7 +58,7 @@
 }
 
 .descriptionArticle {
-    padding: 0px 16px 6px;
+    padding: 0px 17px 6px;
 }
 
 .descriptionArticle p {
@@ -102,7 +104,7 @@
     width: 342px;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px 10px #f2f2f2;
+    box-shadow: 0px 7px 20px 0px #0001;
     padding: 5px;
     margin: 20px 34px;
     text-decoration: none;
@@ -121,8 +123,7 @@
 }
 
 .descriptionAside {
-    margin: 0px 15px;
-    padding: 5px;
+    padding: 0px 20px;
 }
 
 .descriptionAside p {
@@ -163,10 +164,11 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 0px 50px;
+        column-gap: 5px;
     }
 
     .roomsAside a {
-        margin: 20px 5px 36px 5px;
+        margin: 20px 0px 36px 0px;
         flex-direction: column;
         height: 218px;
         width: auto;
@@ -183,19 +185,25 @@
 
     .fa-chart-line {
         position: absolute;
-        right: 34px;
+        right: 50px;
         top: 30px;
+    }
+
+    .descriptionAside {
+        padding: 5px 17px;
     }
 
     .roomsArticle {
         display: grid;
         margin: 0px 50px;
         grid-template-columns: repeat(3, 1fr);
+        column-gap: 5px;
+        padding: 0px;
     }
 
     .roomsArticle a {
         width: auto;
-        margin: 20px 5px;
+        margin: 20px 0px;
         height: 218px;
     }
 
@@ -209,7 +217,7 @@
 
     .starsArticle {
         position: absolute;
-        top: 72px;
+        top: 68px;
     }
 
     .displayMore {
@@ -232,6 +240,7 @@
 }
 
 @media screen and (max-width: 768px){
+    
     .roomsAside {
         display: block;
     }
@@ -251,6 +260,10 @@
         top: initial;
     }
 
+    .descriptionAside {
+        padding: 5px 20px;
+    }
+
     .roomsArticle {
         display: flex;
         flex-direction: column;
@@ -261,7 +274,7 @@
     }
 
     .roomsArticle img {
-        width: 98.3%;
+        width: -webkit-fill-available;
     }
 
     .starsArticle {
