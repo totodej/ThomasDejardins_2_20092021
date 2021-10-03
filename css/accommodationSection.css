@@ -231,3 +231,41 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .roomsAside {
+        display: block;
+    }
+
+    .roomsAside a {
+        flex-direction: initial;
+        height: 144px;
+    }
+
+    .roomsAside img {
+        width: 127px;
+        border-radius: 20px 0px 0px 20px;
+        height: auto;
+    }
+
+    .starsAside {
+        top: initial;
+    }
+
+    .roomsArticle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roomsArticle a {
+        height: 199px;
+    }
+
+    .roomsArticle img {
+        width: 98.3%;
+    }
+
+    .starsArticle {
+        top: initial;
+    }
+}
+
