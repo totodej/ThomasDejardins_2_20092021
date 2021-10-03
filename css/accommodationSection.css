@@ -124,6 +124,7 @@
 
 .descriptionAside {
     padding: 0px 20px;
+    width: 140px;
 }
 
 .descriptionAside p {
@@ -164,7 +165,7 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         margin: 0px 50px;
-        column-gap: 5px;
+        column-gap: 30px;
     }
 
     .roomsAside a {
@@ -191,13 +192,14 @@
 
     .descriptionAside {
         padding: 5px 17px;
+        width: auto;
     }
 
     .roomsArticle {
         display: grid;
         margin: 0px 50px;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 5px;
+        column-gap: 30px;
         padding: 0px;
     }
 
@@ -251,7 +253,7 @@
     }
 
     .roomsAside img {
-        width: 127px;
+        width: 200px;
         border-radius: 20px 0px 0px 20px;
         height: auto;
     }
@@ -265,8 +267,7 @@
     }
 
     .roomsArticle {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .roomsArticle a {
@@ -282,3 +283,14 @@
     }
 }
 
+@media screen and (max-width: 576px){
+    
+    .roomsAside img {
+        width: 127px;
+    }
+
+    .roomsArticle {
+        display: flex;
+        flex-direction: column;
+    }
+}
