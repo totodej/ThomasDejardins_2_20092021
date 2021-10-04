@@ -80,7 +80,7 @@
     .activities {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: initial;
-        row-gap: 44px;
+        row-gap: 22px;
     }
 
     .vieux_port, .calanques, .pomegues, .frioul, .dame_garde, .longchamp {
@@ -93,5 +93,12 @@
         height: 134px;
     }
 
+}
+
+@media screen and (max-width: 576px) {
+
+    .activities{
+        grid-template-columns: initial;
+    } 
 }
 
