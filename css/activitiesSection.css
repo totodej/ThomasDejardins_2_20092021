@@ -75,3 +75,23 @@
     height: 150px;
 }
 
+@media screen and (max-width: 992px){
+
+    .activities {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: initial;
+        row-gap: 44px;
+    }
+
+    .vieux_port, .calanques, .pomegues, .frioul, .dame_garde, .longchamp {
+        grid-row: initial;
+        grid-column: initial;
+        height: 190px;
+    }
+
+    .vieux_port img, .calanques img, .pomegues img, .frioul img, .dame_garde img, .longchamp img {
+        height: 134px;
+    }
+
+}
+
