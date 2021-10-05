@@ -229,6 +229,14 @@
 
 @media screen and (max-width: 992px) {
 
+    #accommodationSection aside h1 {
+        margin: 43px 0px 26px 50px;
+    }
+
+    .fa-chart-line {
+        top: 46px;
+    }
+
     #accommodationSection aside {
         width: 100%;
         border-radius: 0px;
@@ -287,10 +295,6 @@
 
 @media screen and (max-width: 576px){
 
-    #accommodationSection aside h1 {
-        margin: 43px 0px 26px 50px;
-    }
-
     .roomsAside {
         margin: 0px 50px 36px 50px;
     }
@@ -303,9 +307,6 @@
         width: 127px;
     }
 
-    #accommodationSection article h1 {
-        margin: 41px 0px 10px 50px;
-    }
 
     .roomsArticle {
         display: flex;
