@@ -108,11 +108,11 @@ form button {
 
     form {
         position: relative;
-        width: max-content;
+        margin-right: 40px;
     }
 
     form input {
-        width: 248px;
+        width: -webkit-fill-available;
     }
 
     form button {
@@ -120,7 +120,7 @@ form button {
         height: 54px;
         border-radius: 15px 15px 15px 15px;
         position: absolute;
-        right: -42px;
+        right: -41px;
     }
 
     .searchButton {
