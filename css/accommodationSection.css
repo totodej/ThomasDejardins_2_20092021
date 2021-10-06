@@ -228,11 +228,11 @@
     }
 
     .displayMore {
-        margin: 0px 15px;
+        margin: 20px 15px 0px;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
 
     #accommodationSection aside h1 {
         margin: 43px 0px 26px 50px;
@@ -320,6 +320,7 @@
 
     .displayMore {
         padding: 35px 0px 20px 35px;
+        margin: 0px 15px;
     }
 
 }
