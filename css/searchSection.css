@@ -106,9 +106,21 @@ form button {
 
 @media screen and (max-width: 576px){
 
+    form {
+        position: relative;
+        width: max-content;
+    }
+
+    form input {
+        width: 248px;
+    }
+
     form button {
         width: 55px;
+        height: 54px;
         border-radius: 15px 15px 15px 15px;
+        position: absolute;
+        right: -42px;
     }
 
     .searchButton {
