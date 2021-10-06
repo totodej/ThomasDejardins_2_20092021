@@ -54,7 +54,7 @@ header a:hover {
 
     header {
         grid-template-columns: 1fr 1fr;
-        margin: 0px;
+        margin: 0px 0px 36px 0px;
     }
 
     nav {
