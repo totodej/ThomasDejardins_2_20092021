@@ -47,7 +47,7 @@
 }
 
 .activities h2 {
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 20px;
     color : black;
 }
@@ -86,7 +86,7 @@
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1200px){
 
     .activities {
         grid-template-columns: repeat(2, 1fr);
