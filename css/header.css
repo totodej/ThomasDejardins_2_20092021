@@ -99,6 +99,15 @@ header a:hover {
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
+}
 
-    
+@media screen and (max-width: 576px){
+
+    header img {
+        padding: 37px 0px 0px 20px;
+    }
+
+    .signup {
+        margin-right: 20px;
+    }
 }
