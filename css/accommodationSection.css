@@ -300,27 +300,39 @@
 
 @media screen and (max-width: 576px){
 
+    #accommodationSection aside h1 {
+        margin: 43px 0px 26px 20px;
+    }
+
     .roomsAside {
-        margin: 0px 50px 36px 50px;
+        margin: 0px 20px 36px 20px;
     }
 
     .roomsAside a {
         margin: 10px 0px 10px 0px;
     }
 
+    .fa-chart-line {
+        right: 20px;
+    }
+
     .roomsAside img {
         width: 127px;
     }
 
+    #accommodationSection article h1 {
+        margin: 28px 0px 23px 20px;
+    }
 
     .roomsArticle {
         display: flex;
         flex-direction: column;
+        margin: 0px 20px;
     }
 
     .displayMore {
-        padding: 35px 0px 20px 35px;
-        margin: 0px 15px;
+        padding: 35px 0px 20px 20px;
+        margin: 0px;
     }
 
 }
