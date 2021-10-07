@@ -71,11 +71,11 @@ form button {
 .filters ul li i {
     background-color: #DEEBFF;
     color: #0065FC;
-    padding: 16px;
+    padding: 16.5px;
     border-radius: 25px;
     position: absolute;
     left: -24px;
-    top: -1px;
+    top: -2px;
     width: 16px;
 }
 
@@ -87,6 +87,7 @@ form button {
 .avalaible {
     margin: 0px 0px 22px;
     display: flex;
+    position: relative;
 }
 
 .avalaible i {
@@ -96,10 +97,13 @@ form button {
     padding: 3px 7px;
     color:#0065FC;
     height: 14px;
+    position: absolute;
+    top: -2px;
+    left: 8px;
 }
 
 .avalaible p {
-    margin-left: 5px;
+    margin-left: 45px;
     vertical-align: middle;
     margin-block-start: 0px;
 }
