@@ -63,6 +63,7 @@
 
 .descriptionArticle p {
     margin: 5px 0px;
+    font-size: 14px;
 }
 
 .displayMore {
@@ -124,11 +125,12 @@
 
 .descriptionAside {
     padding: 0px 20px;
-    width: 140px;
+    width: 160px;
 }
 
 .descriptionAside p {
     margin: 5px 0px;
+    font-size: 14px;
 }
 
 .descriptionAside {
