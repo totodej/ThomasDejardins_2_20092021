@@ -56,8 +56,8 @@ footer a {
         grid-template-columns: none;
     }
 
-    .accommodation {
-        padding-left: 50px;
+    .a_propos, .accommodation, .assistance {
+        padding-left: 20px;
     }
 }
 
