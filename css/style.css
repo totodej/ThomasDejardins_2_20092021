@@ -13,3 +13,10 @@ section {
 h1 {
     font-size: 22px;
 }
+
+@media screen and (max-width: 576px){
+    
+    section {
+        margin: 0px 20px;
+    }
+}
