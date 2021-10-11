@@ -22,7 +22,8 @@
     background-color:#F2F2F2;
 }
 
-#accommodationSection article h1 {
+#accommodationSection article h2 {
+    font-size: 22px;
     margin: 28px 0px 0px 28px;
 }
 
@@ -52,7 +53,7 @@
     padding: 4px;
 }
 
-.descriptionArticle h2, .descriptionAside h2 {
+.descriptionArticle h3, .descriptionAside h3 {
     font-size: 16px;
     margin: 0px;
 }
@@ -89,8 +90,9 @@
     width: 418px;
 }
 
-#accommodationSection aside h1 {
+#accommodationSection aside h2 {
     display: inline-block;
+    font-size: 22px;
     margin: 28px 121px 0px 34px;
 }
 
@@ -144,11 +146,11 @@
 
 @media screen and (max-width: 1400px){
     
-    #accommodationSection article h1 {
+    #accommodationSection article h2 {
         margin: 28px 0px 23px 50px;
     }
     
-    #accommodationSection aside h1 {
+    #accommodationSection aside h2 {
         margin: 28px 0px 0px 50px;
     }
 
@@ -236,7 +238,7 @@
 
 @media screen and (max-width: 1200px) {
 
-    #accommodationSection aside h1 {
+    #accommodationSection aside h2 {
         margin: 43px 0px 26px 50px;
     }
 
@@ -302,7 +304,7 @@
 
 @media screen and (max-width: 576px){
 
-    #accommodationSection aside h1 {
+    #accommodationSection aside h2 {
         margin: 43px 0px 26px 20px;
     }
 
@@ -322,7 +324,7 @@
         width: 127px;
     }
 
-    #accommodationSection article h1 {
+    #accommodationSection article h2 {
         margin: 28px 0px 23px 20px;
     }
 
