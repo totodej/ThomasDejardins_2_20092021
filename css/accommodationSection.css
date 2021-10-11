@@ -2,8 +2,7 @@
 #accommodationSection {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 65px;
-    margin: 0px 50px;
+    margin: 0px 50px 65px 50px;
 }
 
 .fa-star {
