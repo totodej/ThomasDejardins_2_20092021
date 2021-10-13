@@ -1,116 +1,130 @@
+#activitiesSection {
+  margin: 0px 50px;
+}
+
 #activitiesSection h2 {
-    font-size: 22px;
-    margin-bottom: 33px;
+  font-size: 22px;
+  margin-bottom: 33px;
 }
 
 .activities {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto 195px 22px 22px 43px 164px;
-    column-gap: 44px;
-    margin: 10px 0px 60px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto 195px 22px 22px 43px 164px;
+  column-gap: 44px;
+  margin: 10px 0px 60px 0px;
 }
 
 .vieux_port {
-    grid-row: 2/7;
-    grid-column: 1/2;
+  grid-row: 2/7;
+  grid-column: 1/2;
 }
 
 .pomegues {
-    grid-column: 2/3;
-    grid-row: 2/5;
+  grid-column: 2/3;
+  grid-row: 2/5;
 }
 
 .calanques {
-    grid-row: 2/7;
-    grid-column: 3/4;
+  grid-row: 2/7;
+  grid-column: 3/4;
 }
 
 .dame_garde {
-    grid-row: 2/3;
-    grid-column: 4/5;
+  grid-row: 2/3;
+  grid-column: 4/5;
 }
 
 .frioul {
-    grid-row: 6/7;
-    grid-column: 2/3;
+  grid-row: 6/7;
+  grid-column: 2/3;
 }
 
 .longchamp {
-    grid-row: 5/7;
-    grid-column: 4/5;
+  grid-row: 5/7;
+  grid-column: 4/5;
 }
 
 .activities a {
-    border-radius: 20px;
-    text-decoration: none;
-    box-shadow: 0px 7px 20px 0px #0001;
+  border-radius: 20px;
+  text-decoration: none;
+  box-shadow: 0px 7px 20px 0px #0001;
 }
 
 .activities h3 {
-    font-size: 15px;
-    margin-left: 20px;
-    color : black;
+  font-size: 15px;
+  margin-left: 20px;
+  color: black;
 }
 
-.activities img{
-    object-fit: cover;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
+.activities img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
 }
 
-.vieux_port img, .calanques img {
-    height: 389px;
+.vieux_port img,
+.calanques img {
+  height: 389px;
 }
 
 .pomegues img {
-    height: 180px;
+  height: 180px;
 }
 
 .frioul img {
-    height: 107px;
+  height: 107px;
 }
 
 .dame_garde img {
-    height: 139px;
-    object-position: top;
+  height: 139px;
+  object-position: top;
 }
 
 .longchamp img {
-    height: 150px;
+  height: 150px;
 }
 
-@media screen and (max-width: 1400px){
-
-    #activitiesSection {
-        margin-top: 65px;
-    }
+@media screen and (max-width: 1400px) {
+  #activitiesSection {
+    margin-top: 65px;
+  }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
+  .activities {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: initial;
+    row-gap: 22px;
+  }
 
-    .activities {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: initial;
-        row-gap: 22px;
-    }
+  .vieux_port,
+  .calanques,
+  .pomegues,
+  .frioul,
+  .dame_garde,
+  .longchamp {
+    grid-row: initial;
+    grid-column: initial;
+    height: 190px;
+  }
 
-    .vieux_port, .calanques, .pomegues, .frioul, .dame_garde, .longchamp {
-        grid-row: initial;
-        grid-column: initial;
-        height: 190px;
-    }
-
-    .vieux_port img, .calanques img, .pomegues img, .frioul img, .dame_garde img, .longchamp img {
-        height: 134px;
-    }
-
+  .vieux_port img,
+  .calanques img,
+  .pomegues img,
+  .frioul img,
+  .dame_garde img,
+  .longchamp img {
+    height: 134px;
+  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 992px) {
+  #activitiesSection {
+    margin: 0px 20px;
+  }
 
-    .activities{
-        grid-template-columns: initial;
-    } 
+  .activities {
+    grid-template-columns: initial;
+  }
 }
-

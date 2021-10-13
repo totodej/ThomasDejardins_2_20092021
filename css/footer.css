@@ -1,146 +1,67 @@
 footer {
-    background-color: #F2F2F2;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 footer h2 {
-    font-size: 17px;
-    margin-bottom: 27px;
-    margin-block-start: 0px;
+  font-size: 17px;
+  margin-bottom: 27px;
+  margin-block-start: 0px;
 }
 
 footer ul {
-    padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
 footer ul li {
-    font-size: 15px;
-    list-style-type: none;
-    padding: 5px 0px;
+  font-size: 15px;
+  list-style-type: none;
+  padding: 5px 0px;
 }
 
 footer a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-.a_propos {
-    padding-top: 50px;
-    padding-left: 50px;
-}
-
-.accommodation {
-    padding-top: 50px;
-    padding-left: 30px;
-}
-
-.assistance {
-    padding-top: 50px;
-}
-
-@media screen and (max-width: 768px){
-
-    footer {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .assistance {
-        padding-left: 50px;
-    }
-}
-
-@media screen and (max-width: 576px){
-
-    footer {
-        grid-template-columns: none;
-    }
-
-    .a_propos, .accommodation, .assistance {
-        padding-left: 20px;
-    }
-}
-
-/*
-footer {
-    background-color: #F2F2F2;
-    display: flex;
-}
-
-.a_propos {
-    padding: 50px 30px;
-    margin-left: 20px;;
+.about {
+  padding-top: 50px;
+  padding-left: 50px;
 }
 
 .accommodation {
-    padding: 50px 30px;
-    margin-left: 173px;
+  padding-top: 50px;
+  padding-left: 30px;
 }
 
 .assistance {
-    padding: 50px 30px;
-    margin-left: 254px;
+  padding-top: 50px;
 }
 
-footer h2 {
-    font-size: 17px;
-    margin-bottom: 27px;
-    margin-block-start: 0px;
+@media screen and (max-width: 992px) {
+  .about {
+    padding-left: 20px;
+  }
 }
 
-footer ul {
-    padding-inline-start: 0px;
+@media screen and (max-width: 768px) {
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .assistance {
+    padding-left: 20px;
+  }
 }
 
-footer ul li {
-    font-size: 15px;
-    list-style-type: none;
-    padding: 5px 0px;
+@media screen and (max-width: 576px) {
+  footer {
+    grid-template-columns: none;
+  }
+
+  .accommodation,
+  .assistance {
+    padding-left: 20px;
+  }
 }
-
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-@media screen and (max-width: 1200px){
-
-    footer {
-        justify-content: space-between;
-    }
-
-    .a_propos {
-        padding-left: 30px;
-    }
-
-    .accommodation, .assistance {
-        margin-left: 0px;
-    }
-
-    .assistance {
-        padding-right: 30px;
-    }
-}
-
-@media screen and (max-width: 768px){
-
-    footer {
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 576px){
-
-    footer {
-        display: block;
-    }
-
-    .a_propos, .accommodation {
-        padding: 50px 30px 0px 30px;
-    }
-
-    .assistance {
-        padding: 50px 30px;
-    }
-}
-*/

@@ -1,342 +1,330 @@
-
 #accommodationSection {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 50px 65px 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px 65px 50px;
 }
 
 .fa-star {
-    color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .blue {
-    color: #0065FC
+  color: #0065fc;
 }
 
 /* Article */
 
-#accommodationSection article {
-    border: 1px solid #F2F2F2;
-    border-radius: 20px;
-    width: 877px;
-    background-color:#F2F2F2;
+.article {
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  width: 877px;
+  background-color: #f2f2f2;
 }
 
-#accommodationSection article h2 {
-    font-size: 22px;
-    margin: 28px 0px 0px 28px;
+.article h2 {
+  font-size: 22px;
+  margin: 28px 0px 0px 28px;
 }
 
 .roomsArticle {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 30px;
 }
 
 .roomsArticle a {
-    background-color: white;
-    width: 245px;
-    height: 199px;
-    border-radius: 20px;
-    box-shadow: 0px 7px 20px 0px #0001;
-    margin: 20px 0px;
-    text-decoration: none;
-    color: black;
+  background-color: white;
+  width: 245px;
+  height: 199px;
+  border-radius: 20px;
+  box-shadow: 0px 7px 20px 0px #0001;
+  margin: 20px 0px;
+  text-decoration: none;
+  color: black;
 }
 
 .roomsArticle img {
-    width: 236px;
-    height: 114px;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-    padding: 4px;
+  width: 236px;
+  height: 114px;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  padding: 4px;
 }
 
-.descriptionArticle h3, .descriptionAside h3 {
-    font-size: 16px;
-    margin: 0px;
+.descriptionArticle h3,
+.descriptionAside h3 {
+  font-size: 16px;
+  margin: 0px;
 }
 
 .descriptionArticle {
-    padding: 0px 17px 6px;
+  padding: 0px 17px 6px;
 }
 
 .descriptionArticle p {
-    margin: 5px 0px;
-    font-size: 14px;
+  margin: 5px 0px;
+  font-size: 14px;
 }
 
 .displayMore {
-    padding: 10px 0px 20px 35px;
+  padding: 10px 0px 20px 35px;
 }
 
 .displayMore a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* Aside */
 
-#accommodationSection aside {
-    border: 1px solid #F2F2F2;
-    border-radius: 20px;
-    background-color:#F2F2F2;
-    width: 418px;
+.aside {
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  width: 418px;
 }
 
-#accommodationSection aside h2 {
-    display: inline-block;
-    font-size: 22px;
-    margin: 28px 121px 0px 34px;
+.aside h2 {
+  display: inline-block;
+  font-size: 22px;
+  margin: 28px 121px 0px 34px;
 }
-
 
 .roomsAside {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .roomsAside a {
-    display: flex;
-    width: 342px;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 0px 7px 20px 0px #0001;
-    padding: 5px;
-    margin: 20px 34px;
-    text-decoration: none;
-    color: black;
+  display: flex;
+  width: 342px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 7px 20px 0px #0001;
+  padding: 5px;
+  margin: 20px 34px;
+  text-decoration: none;
+  color: black;
 }
 
 .fa-chart-line {
-    font-size: 21px;
+  font-size: 21px;
 }
 
 .roomsAside img {
-    width: 120px;
-    height: 127px;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
+  width: 120px;
+  height: 127px;
+  border-radius: 20px 0px 0px 20px;
+  object-fit: cover;
 }
 
 .descriptionAside {
-    padding: 0px 20px;
-    width: 160px;
+  padding: 0px 20px;
+  width: 160px;
 }
 
 .descriptionAside p {
-    margin: 5px 0px;
-    font-size: 14px;
+  margin: 5px 0px;
+  font-size: 14px;
 }
 
 .descriptionAside {
-    position: relative;
+  position: relative;
 }
 
 .starsAside {
-    position: absolute;
-    bottom: 5px;
+  position: absolute;
+  bottom: 5px;
 }
 
-@media screen and (max-width: 1400px){
-    
-    #accommodationSection article h2 {
-        margin: 28px 0px 23px 50px;
-    }
-    
-    #accommodationSection aside h2 {
-        margin: 28px 0px 0px 50px;
-    }
+@media screen and (max-width: 1400px) {
+  .article h2 {
+    margin: 28px 0px 23px 50px;
+  }
 
-    #accommodationSection {
-        flex-direction: column-reverse;
-        margin: 0px;
-    }
+  .aside h2 {
+    margin: 28px 0px 0px 50px;
+  }
 
-    #accommodationSection aside, #accommodationSection article {
-        width: 92.5%;
-        margin: auto;
-        position: relative;
-    }
+  #accommodationSection {
+    flex-direction: column-reverse;
+    margin: 0px;
+  }
 
-    #accommodationSection aside {
-        margin-bottom: 20px;
-    }
+  .aside,
+  .article {
+    width: 92.5%;
+    margin: auto;
+    position: relative;
+  }
 
-    .roomsAside {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin: 0px 50px;
-        column-gap: 30px;
-    }
+  .aside {
+    margin-bottom: 20px;
+  }
 
-    .roomsAside a {
-        margin: 20px 0px 36px 0px;
-        flex-direction: column;
-        height: 218px;
-        width: auto;
-    }
+  .roomsAside {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 50px;
+    column-gap: 30px;
+  }
 
-    .roomsAside img {
-        width: auto;
-        border-radius: 20px 20px 0px 0px;
-    }
+  .roomsAside a {
+    margin: 20px 0px 36px 0px;
+    flex-direction: column;
+    height: 218px;
+    width: auto;
+  }
 
-    .starsAside {
-        top: 72px;
-    }
+  .roomsAside img {
+    width: auto;
+    border-radius: 20px 20px 0px 0px;
+  }
 
-    .fa-chart-line {
-        position: absolute;
-        right: 50px;
-        top: 30px;
-    }
+  .starsAside {
+    top: 72px;
+  }
 
-    .descriptionAside {
-        padding: 5px 17px;
-        width: auto;
-    }
+  .fa-chart-line {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+  }
 
-    .roomsArticle {
-        display: grid;
-        margin: 0px 50px;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 30px;
-        padding: 0px;
-        row-gap: 40px;
-    }
+  .descriptionAside {
+    padding: 5px 17px;
+    width: auto;
+  }
 
-    .roomsArticle a {
-        width: auto;
-        height: 218px;
-        margin: 0px;
-    }
+  .roomsArticle {
+    display: grid;
+    margin: 0px 50px;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    padding: 0px;
+    row-gap: 40px;
+  }
 
-    .roomsArticle img {
-        width: 97.5%;
-    }
+  .roomsArticle a {
+    width: auto;
+    height: 218px;
+    margin: 0px;
+  }
 
-    .descriptionArticle {
-        position: relative;
-    }
+  .roomsArticle img {
+    width: 97.5%;
+  }
 
-    .starsArticle {
-        position: absolute;
-        top: 68px;
-    }
+  .descriptionArticle {
+    position: relative;
+  }
 
-    .displayMore {
-        margin: 20px 15px 0px;
-    }
+  .starsArticle {
+    position: absolute;
+    top: 68px;
+  }
+
+  .displayMore {
+    margin: 20px 15px 0px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
+  .aside h2 {
+    margin: 43px 0px 26px 50px;
+  }
 
-    #accommodationSection aside h2 {
-        margin: 43px 0px 26px 50px;
-    }
+  .fa-chart-line {
+    top: 46px;
+  }
 
-    .fa-chart-line {
-        top: 46px;
-    }
+  .aside {
+    width: 100%;
+    border-radius: 0px;
+  }
 
-    #accommodationSection aside {
-        width: 100%;
-        border-radius: 0px;
-    }
+  .article {
+    background-color: white;
+    width: 100%;
+    border: none;
+  }
 
-    #accommodationSection article {
-        background-color: white;
-        width: 100%;
-        border: none;
-    }
+  .roomsArticle {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .roomsArticle {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .roomsArticle a {
+    height: 199px;
+  }
 
-    .roomsArticle a {
-        height: 199px;
-    }
+  .roomsArticle img {
+    width: -webkit-fill-available;
+  }
 
-    .roomsArticle img {
-        width: -webkit-fill-available;
-    }
-
-    .starsArticle {
-        top: initial;
-    }
+  .starsArticle {
+    top: initial;
+  }
 }
 
-@media screen and (max-width: 768px){
-    
-    .roomsAside {
-        display: block;
-    }
+@media screen and (max-width: 992px) {
+  .article h2 {
+    margin: 28px 0px 23px 20px;
+  }
 
-    .roomsAside a {
-        flex-direction: initial;
-        height: 144px;
-    }
+  .roomsArticle {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    row-gap: 10px;
+  }
 
-    .roomsAside img {
-        width: 200px;
-        border-radius: 20px 0px 0px 20px;
-        height: auto;
-    }
+  .aside h2 {
+    margin: 43px 0px 26px 20px;
+  }
 
-    .starsAside {
-        top: initial;
-    }
+  .fa-chart-line {
+    right: 20px;
+  }
 
-    .descriptionAside {
-        padding: 5px 20px;
-    }
+  .roomsAside {
+    display: block;
+    margin: 0px 20px 36px 20px;
+  }
 
-    
+  .roomsAside a {
+    flex-direction: initial;
+    height: 144px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .roomsAside img {
+    width: 200px;
+    border-radius: 20px 0px 0px 20px;
+    height: auto;
+  }
+
+  .starsAside {
+    top: initial;
+  }
+
+  .descriptionAside {
+    padding: 5px 20px;
+  }
+
+  .displayMore {
+    padding: 35px 0px 20px 20px;
+    margin: 0px;
+  }
 }
 
-@media screen and (max-width: 576px){
-
-    #accommodationSection aside h2 {
-        margin: 43px 0px 26px 20px;
-    }
-
-    .roomsAside {
-        margin: 0px 20px 36px 20px;
-    }
-
-    .roomsAside a {
-        margin: 10px 0px 10px 0px;
-    }
-
-    .fa-chart-line {
-        right: 20px;
-    }
-
-    .roomsAside img {
-        width: 127px;
-    }
-
-    #accommodationSection article h2 {
-        margin: 28px 0px 23px 20px;
-    }
-
-    .roomsArticle {
-        display: flex;
-        flex-direction: column;
-        margin: 0px 20px;
-    }
-
-    .displayMore {
-        padding: 35px 0px 20px 20px;
-        margin: 0px;
-    }
-
+@media screen and (max-width: 576px) {
+  .roomsAside img {
+    width: 127px;
+  }
 }

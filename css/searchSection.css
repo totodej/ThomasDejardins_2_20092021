@@ -1,146 +1,152 @@
-.searchSection h1 {
-    margin-block-end: 16px;
+#searchSection {
+  margin: 0px 50px;
+}
+
+#searchSection h1 {
+  margin-block-end: 16px;
+  font-size: 22px;
 }
 
 form {
-    display: flex;
-    margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
 }
 
 .fa-map-marker-alt {
-    border: 1px solid #F2F2F2; 
-    padding: 18px;
-    border-radius: 15px 0px 0px 15px;
-    background-color: #F2F2F2;
+  border: 1px solid #f2f2f2;
+  padding: 18px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #f2f2f2;
 }
 
 form input {
-    padding: 17px;
-    border: 1px solid #F2F2F2;
-    font-weight: bold;
-    width: 235px;
-    font-size: 16px;
+  padding: 17px;
+  border: 1px solid #f2f2f2;
+  font-weight: bold;
+  width: 235px;
+  font-size: 16px;
 }
 
 form button {
-    border-radius: 0px 15px 15px 0px;
-    color: white;
-    background-color: #0065FC;
-    border: 1px solid #0065FC;
-    font-size: 15px;
-    font-weight: bold;
-    width: 134px;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  background-color: #0065fc;
+  border: 1px solid #0065fc;
+  font-size: 15px;
+  font-weight: bold;
+  width: 134px;
 }
 
 .fa-search {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .filters {
-    display: flex;
-    margin-top: 30px;
+  display: flex;
+  margin-top: 30px;
 }
 
 .filters p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .filters ul {
-    padding-inline-start: 33px;
-    display: flex;
-    margin-block-start: 0px;
-    flex-wrap: wrap;
+  padding-inline-start: 33px;
+  display: flex;
+  margin-block-start: 0px;
+  flex-wrap: wrap;
 }
 
 .filters ul li {
-    display: flex;
-    list-style-type: none;
-    margin: 0px 23px 20px;
+  display: flex;
+  list-style-type: none;
+  margin: 0px 23px 20px;
 }
 
 .filters ul li a {
-    color: black;
-    text-decoration: none;
-    border: 2px solid #F2F2F2;
-    padding: 13px 20px 13px 37px;
-    border-radius: 0px 25px 25px 0px;
-    position:relative;
-    font-weight: bold;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #f2f2f2;
+  padding: 13px 20px 13px 37px;
+  border-radius: 0px 25px 25px 0px;
+  position: relative;
+  font-weight: bold;
 }
 
 .filters ul li i {
-    background-color: #DEEBFF;
-    color: #0065FC;
-    padding: 16.5px;
-    border-radius: 25px;
-    position: absolute;
-    left: -24px;
-    top: -2px;
-    width: 16px;
+  background-color: #deebff;
+  color: #0065fc;
+  padding: 16.5px;
+  border-radius: 25px;
+  position: absolute;
+  left: -24px;
+  top: -2px;
+  width: 16px;
 }
 
 .filters ul li a:hover {
-    background-color: #DEEBFF;
-    color: #0065FC;
+  background-color: #deebff;
+  color: #0065fc;
 }
 
 .avalaible {
-    margin: 0px 0px 22px;
-    display: flex;
-    position: relative;
+  margin: 0px 0px 22px;
+  display: flex;
+  position: relative;
 }
 
 .avalaible i {
-    font-size: 13px;
-    border: 1px solid #F2F2F2;
-    border-radius: 42px;
-    padding: 4px 9px;
-    color:#0065FC;
-    height: 14px;
-    position: absolute;
-    top: -2px;
-    left: 8px;
+  font-size: 13px;
+  border: 1px solid #f2f2f2;
+  border-radius: 42px;
+  padding: 4px 9px;
+  color: #0065fc;
+  height: 14px;
+  position: absolute;
+  top: -2px;
 }
 
 .avalaible p {
-    margin-left: 45px;
-    vertical-align: middle;
-    margin-block-start: 0px;
+  margin-left: 37px;
+  vertical-align: middle;
+  margin-block-start: 0px;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 992px) {
+  #searchSection {
+    margin: 0px 20px;
+  }
 
-    form {
-        position: relative;
-        margin-right: 40px;
-    }
+  form {
+    position: relative;
+    margin-right: 40px;
+  }
 
-    form input {
-        width: -webkit-fill-available;
-    }
+  form input {
+    width: -webkit-fill-available;
+  }
 
-    form button {
-        width: 55px;
-        height: 54px;
-        border-radius: 15px 15px 15px 15px;
-        position: absolute;
-        right: -41px;
-    }
+  form button {
+    width: 55px;
+    height: 54px;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    right: -41px;
+  }
 
-    .searchButton {
-        display: none;
-    }
+  .searchButton {
+    display: none;
+  }
 
-    .fa-search {
-        visibility: visible;
-    }
+  .fa-search {
+    visibility: visible;
+  }
 
-    .filters {
-        display: block;
-    }
+  .filters {
+    display: block;
+  }
 
-    .filters ul {
-        padding-inline-start: 0px;
-    }
-    
+  .filters ul {
+    padding-inline-start: 0px;
+  }
 }
