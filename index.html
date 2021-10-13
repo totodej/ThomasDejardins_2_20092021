@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/footer.css" />
         <link rel="stylesheet" href="fontawesome/fontawesome.css" />
         <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Reservia</title>
     </head>
     <body>
@@ -25,7 +26,7 @@
         </header>
 
         <main>
-            <section class="searchSection">
+            <section id="searchSection">
                 <h1>Trouver votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
                 <form>
@@ -48,8 +49,8 @@
                 </div>       
             </section>
     
-            <div id="accommodationSection">
-                <article>
+            <section id="accommodationSection">
+                <div class="article">
                     <h2>Hébergements à Marseille</h2>
                     <div class="roomsArticle">
                         <a href="#">
@@ -116,9 +117,9 @@
                     <div class="displayMore">
                         <a href="#">Afficher plus</a>
                     </div>             
-                </article>
+                </div>
     
-                <aside>
+                <div class="aside">
                     <h2>Les plus populaires</h2>
                     <i class="fas fa-chart-line"></i>
                     <div class="roomsAside">
@@ -153,8 +154,8 @@
                             </div>   
                         </a>
                     </div>
-                </aside>
-            </div>
+                </div>
+            </section>
     
             <section id="activitiesSection">
                 <h2>Activités à Marseille</h2>
@@ -188,7 +189,7 @@
         </main>
         
         <footer>
-            <div class="a_propos">
+            <div class="about">
                 <h2>A propos</h2>
                 <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
