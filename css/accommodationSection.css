@@ -41,14 +41,15 @@
   margin: 20px 0px;
   text-decoration: none;
   color: black;
+  padding: 4px;
+  position: relative;
 }
 
 .roomsArticle img {
-  width: -webkit-fill-available;
+  width: 100%;
   height: 114px;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
-  padding: 4px;
 }
 
 .descriptionArticle h3,
@@ -58,12 +59,17 @@
 }
 
 .descriptionArticle {
-  padding: 0px 17px 6px;
+  padding: 0px 13px 2px;
 }
 
 .descriptionArticle p {
   margin: 5px 0px;
   font-size: 14px;
+}
+
+.starsArticle {
+  position: absolute;
+  bottom: 6px;
 }
 
 .displayMore {
@@ -214,22 +220,13 @@
   }
 
   .roomsArticle a {
-    width: auto;
     height: 218px;
     margin: 0px;
   }
 
-  .roomsArticle img {
-    width: 97.5%;
-  }
-
-  .descriptionArticle {
-    position: relative;
-  }
-
   .starsArticle {
     position: absolute;
-    top: 68px;
+    bottom: 6px;
   }
 
   .displayMore {
@@ -265,10 +262,6 @@
 
   .roomsArticle a {
     height: 199px;
-  }
-
-  .roomsArticle img {
-    width: -webkit-fill-available;
   }
 
   .starsArticle {
