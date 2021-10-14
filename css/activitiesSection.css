@@ -85,11 +85,15 @@
   height: 150px;
 }
 
+/*************** Ordinateur Portable ***************/
+
 @media screen and (max-width: 1400px) {
   #activitiesSection {
     margin-top: 65px;
   }
 }
+
+/*************** Petit Ordinateur Portable ***************/
 
 @media screen and (max-width: 1200px) {
   .activities {
@@ -118,6 +122,8 @@
     height: 134px;
   }
 }
+
+/*************** Tablette façon Paysage ***************/
 
 @media screen and (max-width: 992px) {
   #activitiesSection {

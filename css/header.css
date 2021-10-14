@@ -45,6 +45,8 @@ header nav a:last-child {
   margin: 0px 24px;
 }
 
+/*************** Tablette façon Paysage ***************/
+
 @media screen and (max-width: 992px) {
   header {
     grid-template-columns: 1fr 1fr;

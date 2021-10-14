@@ -112,6 +112,8 @@ form button {
   margin-block-start: 0px;
 }
 
+/*************** Tablette façon Paysage ***************/
+
 @media screen and (max-width: 992px) {
   #searchSection {
     margin: 0px 20px;
