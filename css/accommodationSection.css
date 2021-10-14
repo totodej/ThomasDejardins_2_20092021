@@ -1,7 +1,8 @@
 #accommodationSection {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto;
   margin: 0px 50px 65px 50px;
+  column-gap: 40px;
 }
 
 .fa-star {
@@ -17,7 +18,6 @@
 .article {
   border: 1px solid #f2f2f2;
   border-radius: 20px;
-  width: 877px;
   background-color: #f2f2f2;
 }
 
@@ -27,15 +27,14 @@
 }
 
 .roomsArticle {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
   padding: 0px 30px;
 }
 
 .roomsArticle a {
   background-color: white;
-  width: 245px;
   height: 199px;
   border-radius: 20px;
   box-shadow: 0px 7px 20px 0px #0001;
@@ -45,7 +44,7 @@
 }
 
 .roomsArticle img {
-  width: 236px;
+  width: -webkit-fill-available;
   height: 114px;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
@@ -143,100 +142,6 @@
   bottom: 5px;
 }
 
-/*************** Ordinateur Grand écran ***************/
-
-@media screen and (min-width: 1500px) {
-  .article h2 {
-    margin: 28px 0px 23px 50px;
-  }
-
-  .aside h2 {
-    margin: 28px 0px 0px 50px;
-  }
-
-  #accommodationSection {
-    flex-direction: column-reverse;
-    margin: 0px 50px;
-  }
-
-  .aside,
-  .article {
-    width: 100%;
-    margin: auto;
-    position: relative;
-  }
-
-  .aside {
-    margin-bottom: 20px;
-  }
-
-  .roomsAside {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0px 50px;
-    column-gap: 30px;
-  }
-
-  .roomsAside a {
-    margin: 20px 0px 36px 0px;
-    flex-direction: column;
-    height: 218px;
-    width: auto;
-  }
-
-  .roomsAside img {
-    width: auto;
-    border-radius: 20px 20px 0px 0px;
-  }
-
-  .starsAside {
-    top: 72px;
-  }
-
-  .fa-chart-line {
-    position: absolute;
-    right: 50px;
-    top: 30px;
-  }
-
-  .descriptionAside {
-    padding: 5px 17px;
-    width: auto;
-  }
-
-  .roomsArticle {
-    display: grid;
-    margin: 0px 50px;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    padding: 0px;
-    row-gap: 40px;
-  }
-
-  .roomsArticle a {
-    width: auto;
-    height: 218px;
-    margin: 0px;
-  }
-
-  .roomsArticle img {
-    width: -webkit-fill-available;
-  }
-
-  .descriptionArticle {
-    position: relative;
-  }
-
-  .starsArticle {
-    position: absolute;
-    top: 68px;
-  }
-
-  .displayMore {
-    margin: 20px 15px 0px;
-  }
-}
-
 /*************** Ordinateur Portable ***************/
 
 @media screen and (max-width: 1400px) {
@@ -249,6 +154,7 @@
   }
 
   #accommodationSection {
+    display: flex;
     flex-direction: column-reverse;
     margin: 0px;
   }
